@@ -1,0 +1,1 @@
+<?php /**PATH C:\school_managment\School-Mangment-System\resources\views/pages/teacher/menu.blade.php ENDPATH**/ ?>

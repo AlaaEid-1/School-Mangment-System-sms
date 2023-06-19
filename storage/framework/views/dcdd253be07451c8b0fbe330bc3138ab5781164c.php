@@ -1,0 +1,1 @@
+<?php /**PATH C:\Users\Rc-2022\Desktop\prohectt55\resources\views/pages/admin/menu.blade.php ENDPATH**/ ?>
