@@ -42,7 +42,7 @@
                                                 <i class="icon-menu9"></i>
                                                 </a>
 
-                                                <div class="dropdown-menu dropdown-menu-left">
+                                                <!-- <div class="dropdown-menu dropdown-menu-left">
                                                     @if(Qs::userIsTeamSA())
                                                     {{--Edit--}}
                                                     <a href="{{ route('grades.edit', $gr->id) }}" class="dropdown-item"><i class="icon-pencil"></i> Edit</a>
@@ -53,7 +53,7 @@
                                                     <form method="post" id="item-delete-{{ $gr->id }}" action="{{ route('grades.destroy', $gr->id) }}" class="hidden">@csrf @method('delete')</form>
                                                         @endif
 
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </td>

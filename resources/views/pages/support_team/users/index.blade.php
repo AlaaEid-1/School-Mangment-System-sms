@@ -205,7 +205,7 @@
                                                     <i class="icon-menu9"></i>
                                                 </a>
 
-                                                <div class="dropdown-menu dropdown-menu-left">
+                                                <!-- <div class="dropdown-menu dropdown-menu-left">
                                                     {{--View Profile--}}
                                                     <a href="{{ route('users.show', Qs::hash($u->id)) }}" class="dropdown-item"><i class="icon-eye"></i> View Profile</a>
                                                     {{--Edit--}}
@@ -218,7 +218,7 @@
                                                         <form method="post" id="item-delete-{{ Qs::hash($u->id) }}" action="{{ route('users.destroy', Qs::hash($u->id)) }}" class="hidden">@csrf @method('delete')</form>
                                                 @endif
 
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </td>

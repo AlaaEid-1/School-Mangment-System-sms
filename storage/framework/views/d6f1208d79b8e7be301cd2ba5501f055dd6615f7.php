@@ -33,7 +33,7 @@
                </div>
            </div>
 
-           <div class="col-sm-6 col-xl-3">
+           <!-- <div class="col-sm-6 col-xl-3">
                <div class="card card-body bg-success-400 has-bg-image">
                    <div class="media">
                        <div class="mr-3 align-self-center">
@@ -46,7 +46,7 @@
                        </div>
                    </div>
                </div>
-           </div>
+           </div> -->
 
            <div class="col-sm-6 col-xl-3">
                <div class="card card-body bg-indigo-400 has-bg-image">

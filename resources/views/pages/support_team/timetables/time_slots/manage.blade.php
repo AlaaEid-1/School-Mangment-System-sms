@@ -27,7 +27,7 @@
                                     <i class="icon-menu9"></i>
                                 </a>
 
-                                <div class="dropdown-menu dropdown-menu-right">
+                                <!-- <div class="dropdown-menu dropdown-menu-right">
                                     {{--Edit--}}
                                     <a href="{{ route('ts.edit', $tms->id) }}" class="dropdown-item"><i class="icon-pencil"></i> Edit</a>
 
@@ -37,7 +37,7 @@
                                         <form method="post" id="item-delete-{{ $tms->id }}" action="{{ route('ts.destroy', $tms->id) }}" class="hidden">@csrf @method('delete')</form>
                                     @endif
 
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </td>

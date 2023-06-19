@@ -365,12 +365,12 @@ class Options
             } elseif ($key === 'pdfBackend' || $key === 'pdf_backend') {
                 $this->setPdfBackend($value);
             } elseif ($key === 'pdflibLicense' || $key === 'pdflib_license') {
-                $this->setPdflibLicense($value);
-            } elseif ($key === 'adminUsername' || $key === 'admin_username') {
-                $this->setAdminUsername($value);
-            } elseif ($key === 'adminPassword' || $key === 'admin_password') {
-                $this->setAdminPassword($value);
-            }
+                $this->setPdflibLicense($value);}
+            // } }elseif ($key === 'adminUsername' || $key === 'admin_username') {
+            //     $this->setAdminUsername($value);
+            // } elseif ($key === 'adminPassword' || $key === 'admin_password') {
+            //     $this->setAdminPassword($value);
+            // }
         }
         return $this;
     }
@@ -433,11 +433,12 @@ class Options
             return $this->getPdfBackend();
         } elseif ($key === 'pdflibLicense' || $key === 'pdflib_license') {
             return $this->getPdflibLicense();
-        } elseif ($key === 'adminUsername' || $key === 'admin_username') {
-            return $this->getAdminUsername();
-        } elseif ($key === 'adminPassword' || $key === 'admin_password') {
-            return $this->getAdminPassword();
-        }
+         } 
+        //  elseif ($key === 'adminUsername' || $key === 'admin_username') {
+        //     return $this->getAdminUsername();
+        // } elseif ($key === 'adminPassword' || $key === 'admin_password') {
+        //    return $this->getAdminPassword();
+        // }
         return null;
     }
 

@@ -98,7 +98,7 @@
                                                     <i class="icon-menu9"></i>
                                                 </a>
 
-                                                <div class="dropdown-menu dropdown-menu-right">
+                                                <!-- <div class="dropdown-menu dropdown-menu-right">
                                                     {{--View--}}
                                                     <a href="{{ route('ttr.show', $ttr->id) }}" class="dropdown-item"><i class="icon-eye"></i> View</a>
 
@@ -115,7 +115,7 @@
                                                         <form method="post" id="item-delete-{{ $ttr->id }}" action="{{ route('ttr.destroy', $ttr->id) }}" class="hidden">@csrf @method('delete')</form>
                                                     @endif
 
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </td>

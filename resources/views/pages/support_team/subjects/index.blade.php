@@ -100,7 +100,7 @@
                                                     <i class="icon-menu9"></i>
                                                 </a>
 
-                                                <div class="dropdown-menu dropdown-menu-left">
+                                                <!-- <div class="dropdown-menu dropdown-menu-left">
                                                     {{--edit--}}
                                                     @if(Qs::userIsTeamSA())
                                                         <a href="{{ route('subjects.edit', $s->id) }}" class="dropdown-item"><i class="icon-pencil"></i> Edit</a>
@@ -111,7 +111,7 @@
                                                         <form method="post" id="item-delete-{{ $s->id }}" action="{{ route('subjects.destroy', $s->id) }}" class="hidden">@csrf @method('delete')</form>
                                                     @endif
 
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </td>
